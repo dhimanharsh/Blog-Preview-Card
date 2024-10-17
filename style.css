@@ -1,0 +1,95 @@
+body{
+    background: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+}
+.main{
+    height: 34rem;
+    width: 25%;
+    margin-top: 3rem;
+    border: 1px solid rgb(7, 7, 6);
+    background: white;
+    border-radius: 15px;
+    padding: 1em;
+    box-shadow: 10px 10px;
+    
+}
+.main img{
+    width: 100%;
+    border-radius: 15px;
+}
+.second-content{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.second-content button{
+    background: hsl(47, 88%, 63%);
+    padding: 0.6em 1em 0.6em 1em;
+    border-radius: 5px;
+    border:none;
+    font-size: 0.9em;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800; 
+}
+.second-content p{
+    font-size: 0.9em;
+    color: hsl(0, 0%, 42%);
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+.second-content h2{
+    font-size: 1.7em;
+    color:black;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+}
+#content{
+    font-size: 1em;
+    word-spacing: 2px;
+    line-height: 22px;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+.profile-section{
+    display: flex;
+    padding-top: 1em;
+}
+.profile-section img{
+    height: 2.5em;
+    width: 2.5em;
+}
+.profile-section p{
+    text-decoration:solid;
+    margin-left: 1em;
+    color:  hsl(0, 0%, 7%);
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+}
+@media (min-width:375px) and (max-width:600px) {
+    .main{
+        width: 80%;
+    }
+}
+@media (min-width:601px) and (max-width:800px) {
+    .main{
+        width: 70%;
+        height: 38rem;
+    }
+}
+@media (min-width:801px) and (max-width:1000px) {
+    .main{
+        width: 40%;
+        height: 35rem;
+    }
+}
+@media (min-width:1001px) and (max-width:1500px) {
+    .main{
+        width: 25%;
+        
+    }
+}
